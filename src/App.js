@@ -2,9 +2,33 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <nav>
+        <ul>
+          <li>
+            <a></a>
+          </li>
+          <li>
+            <a></a>
+          </li>
+          <li>
+            <a></a>
+          </li>
+          <li>
+            <a></a>
+          </li>
+        </ul>
+      </nav>
+      <header>
+
+      </header>
+      <main>
+
+      </main>
+      <footer>
+
+      </footer>
+    </>
   );
 }
 
