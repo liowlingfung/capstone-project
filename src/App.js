@@ -1,6 +1,11 @@
 import './App.css';
+import {Route, Routes} from 'react-router';
+import HomePage from './components/HomePage';
 
 function App() {
+  <Routes>
+    <Route path="/" element={<HomePage/>}/>
+  </Routes>
   return (
     <>
       <nav>
@@ -31,5 +36,6 @@ function App() {
     </>
   );
 }
+import { Form } from 'react-router';
 
 export default App;
