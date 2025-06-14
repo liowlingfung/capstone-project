@@ -1,41 +1,29 @@
 import './App.css';
-import {Route, Routes} from 'react-router';
+import {Route, Routes, BrowserRouter} from 'react-router-dom';
+import Nav from './components/Nav';
+
 import HomePage from './components/HomePage';
+import BookingPage from './components/BookingPage'
 
 function App() {
-  <Routes>
-    <Route path="/" element={<HomePage/>}/>
-  </Routes>
   return (
-    <>
-      <nav>
-        <ul>
-          <li>
-            <a></a>
-          </li>
-          <li>
-            <a></a>
-          </li>
-          <li>
-            <a></a>
-          </li>
-          <li>
-            <a></a>
-          </li>
-        </ul>
-      </nav>
+    <BrowserRouter>
+    <Nav/>
       <header>
 
       </header>
       <main>
-
+        <Routes>
+          <Route path="/" element={<HomePage/>}/>
+          <Route path="/booking" element={<BookingPage/>}/>
+        </Routes>
       </main>
       <footer>
 
       </footer>
-    </>
+  </BrowserRouter>
   );
 }
-import { Form } from 'react-router';
+
 
 export default App;
