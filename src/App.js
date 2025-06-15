@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 
 import HomePage from './components/HomePage';
 import BookingPage from './components/BookingPage'
+import { useState } from 'react';
 
 function App() {
   return (
