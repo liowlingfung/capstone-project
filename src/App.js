@@ -9,10 +9,8 @@ import { useState } from 'react';
 function App() {
   return (
     <BrowserRouter>
-    <Nav/>
-      <header>
-
-      </header>
+      <Nav/>
+      
       <main>
         <Routes>
           <Route path="/" element={<HomePage/>}/>
@@ -22,7 +20,7 @@ function App() {
       <footer>
 
       </footer>
-  </BrowserRouter>
+    </BrowserRouter>
   );
 }
 
