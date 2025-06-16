@@ -5,16 +5,17 @@ import Nav from './components/Nav';
 import HomePage from './components/HomePage';
 import BookingPage from './components/BookingPage'
 import { useState } from 'react';
+import Login from './components/Login';
 
 function App() {
   return (
     <BrowserRouter>
       <Nav/>
-      
       <main>
         <Routes>
           <Route path="/" element={<HomePage/>}/>
-          <Route path="/booking" element={<BookingPage/>}/>
+          <Route path="/Booking" element={<BookingPage/>}/>
+          <Route path="/Login" element={<Login/>}/>
         </Routes>
       </main>
       <footer>

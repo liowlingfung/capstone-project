@@ -1,5 +1,6 @@
 import React from 'react'
 import SpecialCard from './SpecialCard';
+import { Link } from 'react-router';
 
 function SpecialSection() {
     const specialsData = [
@@ -29,7 +30,13 @@ function SpecialSection() {
     <>
         <section className='specials'>
             <h1 className='specials specials-header'>This week specials!</h1>
-            <button>Online Menu</button>
+            <button>
+              <Link
+              to={'/Ordering'}
+              style={{textDecoration:"none", padding:"0"}}>
+                Online Menu
+              </Link>
+            </button>
         </section>
             <div className='specials-grid'>
                 {

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 function HeroSection() {
   return (
@@ -15,7 +16,13 @@ function HeroSection() {
               twist`
             }
           </p>
-          <button>Reserve a Table</button>
+          <button>
+            <Link
+            to={'/Booking'} 
+            style={{textDecoration:"none", padding:"0"}}>
+              Reserve a Table
+            </Link>
+          </button>
         </div>
         <img
           className="hero-img"
