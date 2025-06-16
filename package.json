@@ -1,7 +1,7 @@
 {
   "name": "capstone-project",
   "version": "0.1.0",
-  "homepage": "https://github.com/liowlingfung/capstone-project.git",
+  "homepage": "https://github.com/liowlingfung/capstone-project",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
