@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 function HeroSection() {
   return (
     <section className="hero">
-        <div className="heading-text" aria-label='heading-text'>
+        <div className="heading-text">
           <h1>Little Lemon</h1>
           <h2>Chicago</h2>
           <p>
@@ -18,7 +18,7 @@ function HeroSection() {
           </p>
           <button>
             <Link
-            to={'/Booking'} 
+            to={'/Booking'}
             style={{textDecoration:"none", padding:"0"}}>
               Reserve a Table
             </Link>

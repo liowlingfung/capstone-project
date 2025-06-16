@@ -2,12 +2,13 @@ import React from 'react'
 import HeroSection from './HeroSection'
 import SpecialSection from './SpecialSection'
 import FooterSection from './FooterSection'
+import { type } from '@testing-library/user-event/dist/type'
 
-function HomePage() {
+function HomePage({specialsData}) {
   return (
     <>
       <HeroSection/>
-      <SpecialSection/>
+      <SpecialSection specialsData={specialsData}/>
       <FooterSection/>
     </>
   )
