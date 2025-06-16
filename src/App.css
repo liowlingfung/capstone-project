@@ -195,8 +195,16 @@ section.specials{
   justify-content: center;
 }
 
-/* Login Section */
+/* Booking Section */
+.booking-page{
+  display: grid;
+  place-items: center;
+  /* color: white; */
+}
 
+.booking-header{
+  margin: 30px;
+}
 
 
 /* Media query for mobile devices */

@@ -7,7 +7,6 @@ function Login() {
         email: '',
         password: '',
     }
-
     const validationSchema = Yup.object({
         email: Yup.string()
             .email('Invalid email address')
@@ -16,7 +15,6 @@ function Login() {
             .min(8, 'Password must be at least 6 characters')
             .required('Password is required'),
     });
-
     // Simulate an API call
     const submitHandler = (values, {setSubmitting, resetForm }) => {
         setTimeout(() => {
@@ -25,7 +23,6 @@ function Login() {
             resetForm();
         }, 1000)
     }
-
   return (
     <>
     <section style={
